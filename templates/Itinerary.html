@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Center Aligned Form</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/itinerary.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container vertical-center">
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <form>
+        <div class="form-group">
+          <label for="fullName">Input 1</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="emailAddress">Input 2</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="phoneNumber">Input 3</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="address">Input 4</label>
+          <textarea type="text" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="city">Input 5</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="country">Options</label>
+          <select class="form-control">
+            <option selected>Options</option>
+            <option>op 1</option>
+            <option>op 2</option>
+            <option>op 3</option>
+            <!-- Add more options as needed -->
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (optional, if you need JS functionalities) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
