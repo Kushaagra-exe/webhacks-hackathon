@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#778DA9;
+    color: black;
+
+}
+img{
+    width: 100%; /* Set your desired width */
+    overflow: hidden;
+    border-radius: 3rem;
+}
+
+nav{
+    font-size: 20px;
+    margin-top: 0%;
+    height: 8vh;
+    background-color: #415A77;
+
+}
+nav a{
+    font-size: 55px;
+}
+
+.container{
+    margin-top: 15vh !important;
+}
+.carousel-container {
+    width: 80%; /* Adjust the width as needed */
+    height: 200px !important; /* Adjust the height as needed */
+}
+
+.carousel-item {
+    width: 100%; /* Adjust the width of individual items */
+    height: auto; /* Adjust the height of individual items */
+}
+
+#content{
+    border-radius: 3rem;
+    /* height: 300vh; */
+    width: 90%;
+    align-self: center;
+    align-content: center;
+    border-color: black !important;
+    border-width: 0.5rem !important;
+}
+
+.heading{
+    font-size: 5vh;
+}
+
+#airplane{
+    z-index: -1;
+}
