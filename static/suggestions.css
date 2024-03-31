@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D9D9D9 !important; /* Light Gray Background Color */
+  }
+
+  /* AppBar Styles */
+  .app-bar {
+    background-color: #415A77 !important; /* Purple Color */
+    color: #fff;
+    /* padding: 16px; */
+    text-align: center;
+    height: 10vh;
+  }
+
+  /* Main Content Styles */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .header-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .nav-text {
+    font-size: 30px !important;
+    margin-bottom: 20px;
+    margin-left: 80vh !important;
+  }
+
+
+  /* Image Styles */
+  .travel-image {
+    width: 600px;
+    height: 155px;
+    margin: 5vh;
+  }
+
+  /* Input Row Styles */
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .column-left,
+  .column-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+  }
+
+  .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 10px;
+  }
+
+  .input-label {
+    /* margin-right: 6vh; */
+    text-align: right;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /* Style the dropdown button */
+  .dropdown {
+    padding: 20px 40px;
+    color:black;
+    position: relative;
+    font-size: 18px;
+    perspective: 1000px;
+
+  }
+
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f1f1f1;
+    min-width: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display:block;
+  }
+
+  /* Style the checkboxes */
+  .dropdown-content input[type="checkbox"] {
+    margin-right: 8px;
+  }
+
+  /* Updated dropdown button style */
+  .dropbtn {
+    background-color: #778DA9;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px; /* Adjust width as needed */
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Hover effect for dropdown button */
+  .dropbtn:hover {
+    background-color: #415A77;
+  }
+
+  /* Submit button styles */
+  .submit-btn {
+    background-color: #415A77; /* Blue color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 30vh;
+    margin-bottom: 10vh;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Hover effect for submit button */
+  .submit-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+  a{
+    font-size: 5vh !important;
+  }
+
+
+  

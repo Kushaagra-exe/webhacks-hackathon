@@ -1,16 +1,90 @@
-form input[type="text"],
-form textarea,
-select {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
+body{
+  background-color:#778DA9;
+  color: black;
   box-sizing: border-box;
 }
 
-.vertical-center {
-  min-height: 100vh;
+nav {
+  font-size: 20px;
+  margin-top: 0%;
+  height: 8vh;
+  background-color: #415a77;
+}
+
+#container{
+
+  margin-bottom: 10vh;
+  width: 95%;
+  height: 100vh;
+  margin-top: 10vh !important;
+  
+}
+
+#map{
+  width: 80%;
+  height: 80vh;
+  background-color: white;
+  opacity: 0.3;
   display: flex;
+  justify-content: center ;
+  align-items: center ;
+  margin-top: 60px;
+  border-width: 1vh !important;
+  border-radius: 3rem;
+}
+
+#itinerary{
+  width: 20%;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.3;
+  display: flex;
+  border-width: 1vh !important;
+  border-radius: 3rem;
+  margin-left: 0;
+  margin-right: 5vh;
+  
+}
+
+#hotels{
+  width: 80%;
+  height: 47.5vh;
+  background-color: white;
+  opacity: 0.3;
+  display: flex;
+  border-width: 1vh !important;
+  border-radius: 3rem;
+  margin-left: 0;
+  margin-bottom: 5vh;
+}
+
+#flights{
+  width: 80%;
+  height: 47.5vh;
+  background-color: white;
+  opacity: 0.3;
+  display: flex;
+  border-width: 1vh !important;
+  border-radius: 3rem;
+  margin-left: 0;
+}
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+  flex: 50%;
+  /* background-color: #f1f1f1; */
+}
+
+.right {
   justify-content: center;
-  align-items: center;
-  margin-top: 50px;
+  align-items: enter;
+  flex: 50%;
+  /* background-color: #555; */
+  margin-left: 5vh;
 }
